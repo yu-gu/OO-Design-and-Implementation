@@ -1,0 +1,135 @@
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+
+1.
+test logs:
+
+Passenger class test:
+The constructor succeed
+hasBooking() Running succeed
+hasSeat() Running succeed
+Name: BobTelephone: 123
+All bookings:
+Flight number: 123The passenger have not book a seat
+
+The number of errors found in Person class is 0
+
+FirstClassBooking class test:
+
+constructor works
+Both changeMealPlan and getMealPlan works
+The number of errors found in Person class is 0
+
+Flight class test:
+getRemainCapacity works
+Empty Seat List:
+ 1B 1C 1D 2A 2B 2C 2D 3A 3B 3C 3D 4A 4B 4C 4D 5A 5B 5C 5D 6A 6B 6C 6D 7A 7B 7C 7D 8A 8B 
+ John	
+Empty Seat List:
+   1C 1D 2A 2B 2C 2D 3A 3B 3C 3D 4A 4B 4C 4D 5A 5B 5C 5D 6A 6B 6C 6D 7A 7B 7C 7D 8A 8B 
+ 
+The number of errors found in Person class is 0
+
+
+2.
+FlightReservationSystem class I/O test:
+
+operation number: 
+2
+name: YU
+phone number: 123
+Success
+Operation code: 
+3
+Flight number:123
+Flight width:2
+Flight capacity:20
+Success
+Operation code: 
+5
+Person name(Regular Booking):
+YU
+Flight number: 
+123
+Success
+Operation code: 
+7
+Person name: 
+YU
+Flight number: 
+123
+Seat number: 
+1A
+Success
+Operation code: 
+4
+Flight number: 
+123
+Empty Seat List:
+ 1B 2A 2B 3A 3B 4A 4B 5A 5B 6A 6B 7A 7B 8A 8B 9A 9B 10A 10B 
+Operation code: 
+2
+name: Bob
+phone number: 1234
+Success
+Operation code: 
+6
+Person name(FirstClassBooking)
+Bob
+Flight Number:
+123
+Meal Plan: 
+chicken
+Seat: 
+1B
+Suceess
+Operation code: 
+4
+Flight number: 
+123
+Empty Seat List:
+   2A 2B 3A 3B 4A 4B 5A 5B 6A 6B 7A 7B 8A 8B 9A 9B 10A 10B 
+Operation code: 
+3
+Flight number:789
+Flight width:3
+Flight capacity:30
+Success
+Operation code: 
+6
+Person name(FirstClassBooking)
+YU
+Flight Number:
+789
+Meal Plan: 
+apple
+Seat: 
+1A
+Suceess
+Operation code: 
+4
+Flight number: 
+789
+Empty Seat List:
+ 1B 1C 2A 2B 2C 3A 3B 3C 4A 4B 4C 5A 5B 5C 6A 6B 6C 7A 7B 7C 8A 8B 8C 9A 9B 9C 10A 10B 10C 
+Operation code: 
+8
+Passenger list: Name: Bob Phone: 1234
+Name: YU Phone: 123
+
+Operation code: 
+9
+Flight list: 
+Number: 789 Width: 3 Capacity: 30
+Number: 123 Width: 2 Capacity: 20
+
+Operation code: 
+1
+current persons: 
+Passenger list: Name: Bob Phone: 1234
+Name: YU Phone: 123
+
+current flights: 
+Flight list: 
+Number: 789 Width: 3 Capacity: 30
+Number: 123 Width: 2 Capacity: 20

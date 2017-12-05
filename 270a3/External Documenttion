@@ -1,0 +1,16 @@
+External Documenttion
+For cmpt270 Assignment 3
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+
+(i)
+Q:how to execute the test of the class:
+A:all methods in required classes have been called in the main function of each class file for testing and an integer variable numErrors is used for counting errors.
+And some methods that cannot be counted by numErrors was outputed to console as part of the reccords.
+
+
+(ii)
+All methods in flight,passenger,FirstClassBooking,Flightreservation classes are working well and tested in main function. 
+(except that FlightReservation classes main function is to implement I/O interface
+details of outputs of this class could be seen in output.txt file)
+the code belongs to category (v)designed and all the code but with a few faults

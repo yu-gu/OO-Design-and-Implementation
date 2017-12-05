@@ -1,0 +1,26 @@
+External Documenttion
+For cmpt270 Assignment 4
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+
+(i)
+Q:A description of how to execute your test classes and system:
+
+A:
+For classes in entities package: tests conducted in the main function(done in previous assignments) of each class file for testing and an integer variable numErrors is used for counting errors.
+
+For classes in other packages: The tests of these classes were conducted in I/O interaction executed in FlightReservationSystem in startup package(I/O interactions), the tests are conducted thoroughly(include exceptions).
+
+The system tests could be conducted in jar file or compiler.
+
+
+(ii)
+Q: The status of your assignment:
+
+A:
+Most methods in classes of different packages are currently working well and tested in main function , some classes are tested in FlightReservationSystem because classes like containers type classes are built for storing datas.These classes has been implemented during I/O interactions and working well
+The log of I/O testing is written in TestingOutput.
+
+the code belongs to category - (v)designed and all the code but with a few faults
+
+

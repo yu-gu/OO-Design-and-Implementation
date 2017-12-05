@@ -1,0 +1,162 @@
+Application 1 Solutions:
+Ian McQuillan
+
+
+Passenger
+	String firstName
+	String lastName
+	int age
+	String address
+	String citizenship
+	ListofBookings myBookings
+
+
+	setFirstName
+	getFirstName
+	setLastName
+	getLastName
+	setAge
+	getAge
+	setAddress
+	getCitizenship
+	setCitizenship
+	getListofBookings
+	removeFlight
+end Passenger
+
+
+Flight
+	Time departing
+	Time estimatedArrival
+	String flightNumber
+	String departureAirport
+	String arrivalAirport
+	int capacity
+	ListofBookings sitting
+	
+
+	getDepartingTime
+	setDepartingTime
+	getArrivalTime
+	setArrivalTime
+	getFlightNumber
+	setFlightNumber
+	setDepartureAirport
+	get DepartureAirport
+	setCapacity
+	getCapacity
+	setPassengerInSeat
+	getPassengerInSeat
+	getPassengerList
+	addBookingToList	
+end Flight
+
+
+
+Booking
+	Flight onFlight
+	String seatNumber
+	Passenger inSeat
+	int numberOfBags
+	
+	clearPassenger
+	setPassenger
+	getPassenger
+	getSeatNumber
+	setNumberOfBags
+	getNumberOfBags
+	setFlight
+	getFlight
+end Booking
+
+
+FlightsList (container of flights)
+	ListOfFlights allFlights
+	
+	getFlightWithNumber
+	getFlightsWithPassenger	
+	deleteFlightWithNumber
+	addFlightWithNumber
+end FlightsList
+
+
+PassengerList (container of passengers)
+	ListOfPassengers pass
+	
+	getPassengerWithName
+end PassengerList
+
+
+
+
+Application 2
+
+Patient
+	String firstName
+	String lastName
+	listOfDoctors patientDoctors
+
+	getFirstName
+	setFirstName
+	getLastName
+	setLastName
+	getListOfDoctors
+	addDoctor
+	removeDoctor
+end Patient
+
+
+Doctor
+	String firstName
+	String lastName
+	listOfCurrentPatients //might be possible to do this another way
+
+	getFirstName
+	setFirstName
+	getLastName
+	setLastName
+	getListOfPatients
+	addPatient
+	removePatient
+end Doctor
+
+
+It would be reasonable to have some type of class that grouped together patients and doctors.
+
+Bed
+	int bedNumber
+	Patient currentPatient
+
+	isBedEmpty
+	getNumber
+	assignPatient
+	removePatientFromBed
+end Bed
+
+
+Ward
+	numberOfBeds
+	listOfBeds
+	
+	getNumberofBeds
+	getListOfBedsEmpty
+end Ward
+
+
+
+PatientList (container of patients)
+	ListOfPatients allPatients
+
+	addPatient
+	removePatient
+	searchWithName
+end PatientList
+
+
+DoctorList (container of doctors)
+	ListOfDoctors allDoctors
+	
+	addDoctor
+	removeDoctor
+	searchWithName
+end DoctorList

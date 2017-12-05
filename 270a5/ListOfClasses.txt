@@ -1,0 +1,15 @@
+List of Classes
+For cmpt270 Assignment 5
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+——————————————————————————————————
+Package gui
+1.addFlightFrame - the frame that respond to the add flight option
+2.addPassengerFrame - the frame that repond to the add passenger option
+3.FlightFrame - the frame that displays all flights exist in the system
+4.PassengerFrame - the frame that displays all passengers exist in the system
+5.HandleFlightFrame - the frame that respond to further option regarding to a flight(such as make regular bookings,make first class bookings,assign seats etc)
+
+——————————————————————————————————
+Package startup
+
+1.WelcomeFrame - the newly added main frame that gives welcome information and all six options listed and executed as required in this assignment

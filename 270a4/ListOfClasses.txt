@@ -1,0 +1,33 @@
+For cmpt270 Assignment 4
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+package 1 - commands:
+
+1.addPassenger
+2.bookPassenger
+3.CommandStatus
+4.displayEmptySeats
+——————————————————————————————————
+package 2 - containers:
+
+1.FlightMapAccess (storing the TreeMap for flights)
+2.PassengerMapAccess(storing the TreeMap for passengers)
+——————————————————————————————————
+package 3 - entities:
+
+1.BasicFlight
+2.Booking 
+3.FirstClassBooking
+4.Flight
+5.Passenger
+6.Person
+——————————————————————————————————
+package 4 - interfaces
+
+1.Interface (interface for users)
+——————————————————————————————————
+package 5 - startup
+
+1.FlightReservationSystem(invoke the main function for I/O interatoin)
+
+

@@ -1,0 +1,31 @@
+External Documenttion
+For cmpt270 Assignment 2B
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+A.
+1.
+Q:how to execute the test of the class:
+A:all functions in all classes have been called in the main function of each class file, outputs of all funcions has been recorded and each has a standard answer and actual answer to see if they are matched (details in output file)
+
+2.
+Q:what is neccessary to compile classes?
+A:fields and constructors in each class are neccessary to be compiled.
+
+(For Person class: fields->Name PhoneNumber | constructor
+ For Booking class: fields->person flight seat| constructor
+ For BasicFlight class: fields->number width seatlimit ticket[] | constructor)
+
+3.
+Q:programs to show execution of the program
+A:the static main method in each class file are used to execute class individually. Another class with main method only is used for application.
+
+(Note: the additional external testingDemo class is not used for testing but for the overall application of flight reservation system to demonstrate the connections and integrity between all classes)
+
+
+B.
+All functions in all classes are working well and thoroughly tested. 
+
+(i.e, accessor methods by output directly mutator methods are tested by ouput after calling the method, which is demonstrated in output file only if the output match the standard answer.)
+
+
+

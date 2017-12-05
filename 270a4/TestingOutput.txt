@@ -1,0 +1,254 @@
+For cmpt270 Assignment 4
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+
+Output testing of three required operagtions without exception:(1:add a new passenger 3:display the empty seats of a flight 4:book a passenger on a flight)
+
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Please enter name of passenger
+BOB
+Telephone number: 
+123
+add Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Please enter name of passenger
+John
+Telephone number: 
+134
+add Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 4
+Please enter name of passenger
+BOB
+Flight number: 
+123
+book Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 4
+Please enter name of passenger
+John
+Flight number: 
+123
+book Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 3
+Flight number: 
+123
+The available seats are 
+  1A  1B  1C  1D
+  2A  2B  2C  2D
+  3A  3B  3C  3D
+  4A  4B  4C  4D
+  5A  5B  5C  5D
+  6A  6B  6C  6D
+  7A  7B  7C  7D
+
+display empty seats successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 0
+The system at shutdown is as follows: 
+The passengers in the system are 
+{BOB=
+Name: BOB   Telephone number: 123
+With bookings:
+Flight: 123
+, John=
+Name: John   Telephone number: 134
+With bookings:
+Flight: 123
+}
+
+The flights in the system are 
+{123=
+Flight 123 with capacity 28 and width 4 has passengers: 
+seat 1A: 
+seat 1B: 
+seat 1C: 
+seat 1D: 
+seat 2A: 
+seat 2B: 
+seat 2C: 
+seat 2D: 
+seat 3A: 
+seat 3B: 
+seat 3C: 
+seat 3D: 
+seat 4A: 
+seat 4B: 
+seat 4C: 
+seat 4D: 
+seat 5A: 
+seat 5B: 
+seat 5C: 
+seat 5D: 
+seat 6A: 
+seat 6B: 
+seat 6C: 
+seat 6D: 
+seat 7A: 
+seat 7B: 
+seat 7C: 
+seat 7D: 
+Passengers without seats: BOB John 
+}
+
+Output testing with exceptions:
+
+Exception 1 — add the same person to system
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Please enter name of passenger
+Bob
+Telephone number: 
+123
+add Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Please enter name of passenger
+Bob
+Telephone number: 
+123
+Person not added as there already is a person by the name Bob
+
+Exception 2 — Book a flight that does not exist
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Please enter name of passenger
+Bob
+Telephone number: 
+123
+add Passenger successful
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 4
+Please enter name of passenger
+Bob
+Flight number: 
+1
+There is no flight with number 1
+
+Exception 3 — Display seats of a non-exist flight
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 3
+Flight number: 
+12
+There is no flight with number 12
+
+Exception 4 — Book flight with non-exist person
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 4
+Please enter name of passenger
+Steven
+Flight number: 
+123
+Cannot book a flight for a null passenger.
+

@@ -1,0 +1,195 @@
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+**This file contains output for testing and standard answer it supposed to be
+
+1. 
+class Person testing output:
+James Gosling	//test getName() method | standard andswer:James Gosling
+123-4567	//test getPhoneNumber() | standard andswer:123-4567
+Name: James Gosling PhoneNumber: 567-890 
+		//test setPhoneNumber(),toString()|Standard answer:Name: James Gosling PhoneNumber: 567-890
+
+2. class Bookng testing output:
+Smith		//test getPerson() constructor
+306-1234	//test getPerson() constructor
+1234		//test getFlight()	answer:1234
+2B			//test setSeat() getSeat() answer:2B
+Name: Smith 1234 2B//test toString()
+
+3.
+7703		//test getNumber() constructor
+5		//test getWidth() constructor
+40		//test getCapacity() constructor
+YuGu		//test getPerson() answer:YuGu
+182-3456	//test getPerson() answer:182-3456
+This seat has been taken by Name: YuGu PhoneNumber: 182-3456	//test isSeatAvailable()
+false		
+15		//test indexFromSeat() answer:15
+1E		//test SeatFromIndex() answer:1E
+Flight Number: 7703 Width: 5 Capacity: 40 //test setSeat() toString()
+1A
+1B
+1C
+1D
+1E
+2A
+2B
+2C
+2D
+2E
+3A
+3B
+3C
+3D
+3E
+4A:  Name: YuGu
+4B
+4C
+4D
+4E
+5A
+5B
+5C
+5D
+5E
+6A
+6B
+6C
+6D
+6E
+7A
+7B
+7C
+7D
+7E
+8A
+8B
+8C
+8D
+8E
+
+4.
+output from TestingDemo class with personalized input
+
+Welcome to flight reservation system!
+Please enter your Name: Yu GU
+Please enter your PhoneNumber: 123-456
+Please enter the seat you'd like to revsered: 1A
+This seat has been taken by Name: James Gosling PhoneNumber: 306-1234
+Sorry!This seat has been taken!
+Flight Number: 6637 Width: 4 Capacity: 35
+1A:  Name: James Gosling
+1B
+1C
+1D
+2A
+2B
+2C
+2D
+3A
+3B
+3C
+3D
+4A
+4B
+4C
+4D
+5A
+5B
+5C
+5D
+6A
+6B
+6C
+6D
+7A
+7B
+7C
+7D
+8A
+8B
+8C
+8D
+9A
+9B
+9C
+
+Please enter your Name: Yu Gu 
+Please enter your PhoneNumber: 123-456
+Please enter the seat you'd like to revsered: 2A
+Flight Number: 6637 Width: 4 Capacity: 35
+1A:  Name: James Gosling
+1B
+1C
+1D
+2A:  Name: Yu Gu 
+2B
+2C
+2D
+3A
+3B
+3C
+3D
+4A
+4B
+4C
+4D
+5A
+5B
+5C
+5D
+6A
+6B
+6C
+6D
+7A
+7B
+7C
+7D
+8A
+8B
+8C
+8D
+9A
+9B
+9C
+
+Please enter your Name: John Havard
+Please enter your PhoneNumber: 306-221
+Please enter the seat you'd like to revsered: 1B
+Flight Number: 6637 Width: 4 Capacity: 35
+1A:  Name: James Gosling
+1B:  Name: John Havard
+1C
+1D
+2A:  Name: Yu Gu 
+2B
+2C
+2D
+3A
+3B
+3C
+3D
+4A
+4B
+4C
+4D
+5A
+5B
+5C
+5D
+6A
+6B
+6C
+6D
+7A
+7B
+7C
+7D
+8A
+8B
+8C
+8D
+9A
+9B
+9C

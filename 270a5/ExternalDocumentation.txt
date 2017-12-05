@@ -1,0 +1,34 @@
+External Documenttion
+For cmpt270 Assignment 5
+//Name:YU GU Student#:11195367 NSID:yug242 Course:01 Tutorial:T03
+
+
+(i)
+Q:A description of how to execute your test classes and system:
+
+A:
+For classes in gui package and WelcomeFrame in Startup package: tests of these classes could be achieved by running WelcomeFrame to start up a main frame for calling functions in these classes in an Java IDE.
+The main frame operations include:
+1.add flight 
+2.add passenger
+3.display flights
+4.display passengers
+5.quit
+6.handle the flight given a flight number in text field
+The system tests for these classes could also be executed by running FlightReservation.jar.
+Note:for addPassengerFrame in gui package, the submit button was added even if it was not required for the assignment. So that both pressing enter key and press submit button will work for submiting passenger information.
+
+For classes in entities package: tests conducted in the main function(done in previous assignments) of each class file for testing and an integer variable numErrors is used for counting errors.
+For classes in other packages except gui package: The tests of these classes were conducted in I/O interaction executed in FlightReservationSystem in startup package(I/O interactions), the tests are conducted thoroughly(include exceptions).
+
+
+
+(ii)
+Q: The status of your assignment:
+
+A:
+Most methods in classes of different packages are currently working well.
+Exceptions were considered in gui and error message will pop up if input not correct.
+
+the code belongs to category - (v)designed and all the code but with a few faults
+
